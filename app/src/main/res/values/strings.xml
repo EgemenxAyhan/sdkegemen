@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">sdkegemen</string>
+    <string name="sentiment">Sentiment</string>
+    <string name="nps">NPS</string>
+    <string name="singlechoice">Single Choice</string>
+    <string name="multiplechoice">Multiple Choice</string>
+    <string name="shorttext">Short Text</string>
+    <string name="longtext">Long Text</string>
+    <string name="dropdown">Dropdown</string>
+    <string name="slider">Slider</string>
+    <string name="numeric">Numeric</string>
+    <string name="agreement">Agreement</string>
+    <string name="accepted">I have read and accept</string>
+    <string name="notaccepted">I dont accept</string>
+    <string name="randomizedoptions">Randomized Options</string>
+    <string name="star">Star</string>
+    <string name="ranking">Ranking</string>
+    <string name="date">Date</string>
+    <string name="file">Upload File</string>
+
+
+
+</resources>
