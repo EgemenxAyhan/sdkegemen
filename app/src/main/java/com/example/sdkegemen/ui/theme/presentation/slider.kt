@@ -26,28 +26,32 @@ fun SliderExample(modifier: Modifier) {
 
         modifier = Modifier.padding(16.dp)
     ) {
-        Text(text = stringResource(id =R.string.slider),
+        Text(
+            text = stringResource(id = R.string.slider),
             fontStyle = FontStyle.Italic,
             fontWeight = FontWeight.SemiBold,
-            fontSize = 20.sp)
-        Text(text = "$sliderValue",
+            fontSize = 20.sp
+        )
+        Text(
+            text = "$sliderValue",
 
             textAlign = TextAlign.End,
-            modifier = Modifier.offset(x=340.dp, y = 25.dp))
-    }
-        Slider(
-            value = sliderValue.toFloat(),
-            onValueChange = { newValue ->
-                sliderValue = newValue.toInt()
-
-            },
-            valueRange = 0f..100f, // Range for the slider values
-            steps = 99, // Number of steps or increments
-            modifier = Modifier.padding(horizontal = 16.dp)
-
+            modifier = Modifier.offset(x = 340.dp, y = 25.dp)
         )
-
-
-
     }
+    Slider(
+        value = sliderValue.toFloat(),
+        onValueChange = { newValue ->
+            sliderValue = newValue.toInt()
+
+        },
+        valueRange = 0f..100f, // Range for the slider values
+        steps = 99, // Number of steps or increments
+        modifier = Modifier.padding(horizontal = 16.dp)
+
+
+    )
+
+
+}
 
