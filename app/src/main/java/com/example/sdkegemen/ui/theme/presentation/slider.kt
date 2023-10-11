@@ -24,6 +24,7 @@ fun SliderExample(modifier: Modifier) {
 
     Column(
 
+
         modifier = Modifier.padding(16.dp)
     ) {
         Text(text = stringResource(id =R.string.slider),
