@@ -44,6 +44,7 @@ fun SliderExample(modifier: Modifier) {
             valueRange = 0f..100f, // Range for the slider values
             steps = 99, // Number of steps or increments
             modifier = Modifier.padding(horizontal = 16.dp)
+
         )
 
 
