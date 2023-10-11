@@ -28,11 +28,13 @@ fun Stars(modifier: Modifier) {
     val yellowstar: Painter = painterResource(id = R.drawable.stariconyellow)
     val state = remember { mutableStateOf(-1) }
 
-    Text(text = stringResource(id = R.string.star),
-            modifier = Modifier.padding(vertical = 20.dp, horizontal =20.dp),
-    fontStyle = FontStyle.Italic,
-    fontWeight = FontWeight.SemiBold,
-    fontSize = 20.sp)
+    Text(
+        text = stringResource(id = R.string.star),
+        modifier = Modifier.padding(vertical = 20.dp, horizontal = 20.dp),
+        fontStyle = FontStyle.Italic,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 20.sp
+    )
     Row(
         modifier = Modifier
             .fillMaxWidth()
